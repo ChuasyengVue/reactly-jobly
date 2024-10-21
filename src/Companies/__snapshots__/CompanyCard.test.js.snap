@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with logo 1`] = `
+<DocumentFragment>
+  <div
+    class="card-container"
+  >
+    <div
+      class="card"
+    >
+      <a
+        class="link"
+        href="/companies/SpringBoard"
+      >
+        <h5>
+           SpringBoard 
+        </h5>
+        <p>
+           Become an exceptional developer in 16 weeks. 
+        </p>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot without logo 1`] = `
+<DocumentFragment>
+  <div
+    class="card-container"
+  >
+    <div
+      class="card"
+    >
+      <a
+        class="link"
+        href="/companies/SpringBoard"
+      >
+        <h5>
+           SpringBoard 
+        </h5>
+        <p>
+           Become a coder in 10months 
+        </p>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

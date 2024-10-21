@@ -1,0 +1,26 @@
+.navbar {
+    background-color: white; /* Dark background */
+    padding: 1px 5px; /* Padding for the navbar */
+
+    .navbar-home {
+        color: #f4bb3a; /* Brand color */
+        font-size: 1.5rem; /* Larger font for brand */
+        text-decoration: none;
+        
+        display: flex;
+        &:hover {
+            color: #ed7b32; /* Change color on hover */
+        }
+    }
+
+    .nav-item {
+        color: gray; /* Text color */
+        margin: 0 20px; /* Spacing between items */
+        text-decoration: none;
+        padding: 1px;
+        
+        &:hover {
+            color: #f4bb3a; /* Change color on hover */
+        }
+    }
+}

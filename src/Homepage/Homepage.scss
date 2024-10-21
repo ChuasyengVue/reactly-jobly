@@ -1,0 +1,17 @@
+@use 'sass:math';
+
+$w: 4em;
+$a: 60deg;
+$h: $w*math.tan(90deg - .5*$a);
+
+html {
+	--s: from #{.5*$a},;
+	--l: 0% #{180deg - $a}, #0000 0% 50%;
+	background:
+		repeating-conic-gradient(var(--s) #b65333 var(--l)), 
+		repeating-conic-gradient(var(--s) #f4bb3a var(--l)) 0 $h, 
+		repeating-conic-gradient(var(--s) #ed7b32 var(--l)) 0 2*$h, 
+		repeating-conic-gradient(var(--s) #966459 var(--l)) 0 3*$h, 
+		linear-gradient(#f19b36 25%, #824739 0 50%, #fadc9c 0 75%, #d6552b 0);
+	background-size: $w 4*$h
+}
